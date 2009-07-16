@@ -1,0 +1,101 @@
+body {
+	margin: 0; padding: 0;
+	background-color: #DFD;
+	}
+
+#header {
+	width: 600px;
+	margin: 3px auto;
+	background-color: #EFF;
+	padding: 5px;
+	}
+
+#header h4 {
+	margin: 0; padding: 0;
+	font: normal normal bold 14px/20px sans-serif;
+	text-align: center;
+}
+
+#header p {
+	margin: 1px;
+	font: normal normal normal 10pt/1.1em sans-serif;
+}
+
+#content {
+	width: 998px; height: 598px;
+	position: relative;
+	margin: 0 auto;
+	background-color: #FFF;
+	border: 1px solid #AAA;
+	-moz-border-radius: 10px;
+}
+
+#dragInfo {
+	width: 120px; height: 120px;
+	position: absolute;
+	right: 10px; bottom: 10px;
+	background-color: #FA0;
+	color: #400;
+	padding: 10px;
+	
+	border: 1px solid #AAA;
+	-moz-border-radius: 10px;
+	font: normal normal normal 8pt/1.1em sans-serif;	
+}
+
+
+
+/* Estilos Propios del Ejemplo */
+#drops {
+  width:1000px; margin: 10px 0 0;
+}
+
+#drops div {
+  width: 100px; height: 100px;
+  margin: 10px;
+  float: left;
+  text-align: center;
+
+  border: 1px solid #09A;
+  -moz-border-radius: 10px;
+  font: normal normal bold 30pt/100px sans-serif;
+}
+
+
+#drags {
+  margin-top: 400px;
+}
+
+#drags div {
+  width: 80px; height: 80px;
+  text-align: center;
+  cursor: pointer;
+
+  font: normal normal bold 20pt/80px sans-serif;
+  border: 1px solid #AAA;
+  -moz-border-radius: 10px;
+}
+
+
+
+
+.ini-Drag {
+  color: #262;
+  background-color: #AFA;
+}
+
+.enter-Drag {
+  color: #141;
+  background-color: #4F4;
+}
+
+
+.enter-Drop {
+  background-color: #8AF;
+  color: #AFF;
+}
+
+.drop-Drop {
+  background-color: #0AF;
+  color: #FFF;
+}
